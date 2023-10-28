@@ -1,0 +1,103 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: #ebe8e8;
+    height: 40px;
+    /* border: 1px solid red; */
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.sign-up {
+    margin-right: 50px;
+
+}
+
+.button {
+    background-color: #64c7ee;
+    font-size: 16px;
+    border: none;
+    padding: 5px 20px;
+    color: white;
+    border-radius: 5px;
+    
+}
+
+.container {
+    border: 1px solid red;
+    /* height: 100vh; */
+    position: relative;
+    
+
+    
+}
+
+.background-img {
+    border: 1px solid blue;
+    /* display: inline-block; */
+   
+}
+
+/* .text-inside {
+    border: 2px solid green;
+    position: absolute;
+    
+} */
+
+.text {
+    /* border: 2px solid blue; */
+    color: white;
+    font-size: 2em;
+    position: absolute;
+    top: 50px;
+    left:15%;
+    right: 15%;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+#background {
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.section {
+    border: 2px solid red;
+   
+}
+
+.container2 {
+    /* border: 2px solid blue; */
+    background-color: #ebe8e8;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 50px;
+    
+    
+}
+
+.logo-box {
+    border: 1px solid red;
+    margin: 0px 10% 0px 10%;
+}
+
+.box {
+    border: 1px solid green;
+    display: inline-block;
+    text-align: center;
+    width: 25%;
+    
+}
