@@ -8,3 +8,14 @@
     left: 0;
     z-index: -1;
 }
+
+.bg-text {
+    text-align: center;
+    color: white;
+    /* border: 1px solid white; */
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
