@@ -1,0 +1,16 @@
+
+.border-container {
+    border: 1px solid black;
+}
+
+.small-box {
+    background-color: rgb(189, 212, 212);
+    margin-top: 5px;
+    height: 40%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.small-box h4 {
+    padding-top: 10px;
+}
