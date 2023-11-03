@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+html,h1,h2,h3,h4,h5,h6,a{
+    font-family: "Raleway";
+}
+
+
+
+/* .custom-nav {
+    display: flex;
+    justify-content: space-between;
+} */
+
+.custom-bg {
+    background-color: #f78c52;
+}
+
+#navitem {  
+    color: white;
+}
+
+
+
+.image {
+
+        width: 100%;
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        background-image: url(images/headerback.jpg);
+    
+    
+}
+
+.image-overlay {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(230, 228, 225, 0.7);
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+}
+
+.header-text > h1 {
+    color: #f78c52;
+    
+}
+
+#custom-btn {
+    background-color: #f78c52;
+    color: white;
+}
+
+.container {
+
+    height: 200vh;
+    background-color: rgba(201, 196, 196, 0.5);
+}
+
+
+.blog {
+    border: 2px solid blue;
+    height: 200vh;
+    background-color: #f2f2f2;
+}
+
+
+
+/* .about-me {
+    margin: 0;
+    margin-top: 50px;
+    text-align: center;
+    border: 1px solid red;
+    color: #f78c52;
+} */
+
+.grid-container {
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-auto-rows: minmax(300px, auto);
+    background-color: #f2f2f2;
+    padding: 0 50px;
+}
+
+.grid-item {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: #f78c52;
+}
+
+.grid-item1 {
+    /* text-align: center; */
+    margin-top: 50px;
+    
+}
+
+.portfolio-items {
+    display: grid;
+    /* border: 1px solid red; */
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 300px;
+    grid-row-gap: 30px;
+    grid-column-gap: 30px;
+}
+
+.port {
+    /* border: 1px solid blue; */
+}
+
+.portfolio-items img {
+    width: 100%;
+    height: 100%;
+}
+
+
