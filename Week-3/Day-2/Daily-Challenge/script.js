@@ -9,3 +9,10 @@ fruits.push('Kiwi')
 fruits.shift()
 fruits.reverse()
 console.log(fruits)
+
+
+//Exercise 2
+
+const moreFruits = ["Banana", ["Apples", ["Oranges"], "Blueberries"]];
+
+console.log(moreFruits[1][1])
