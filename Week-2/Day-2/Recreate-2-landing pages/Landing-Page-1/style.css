@@ -64,12 +64,13 @@
 
 }
 
+
 .grid-container-1 {
     /* border: 1px solid blue; */
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-column-gap: 10px;
-    grid-row-gap: 10px;
+
 
 }
 
@@ -88,9 +89,15 @@
 }
 
 .grid-container-4 {
+
     margin-top: 10px;
     /* border: 1px solid black; */
     
+}
+
+.checkbox-container{
+    /* border: 1px solid black; */
+    margin-top: 10px;
 }
 
 select {
@@ -103,14 +110,14 @@ select {
 
 .grid-item {
     /* border: 1px solid blue; */
-    /* padding-top: 10px; */
+    padding-top: 10px;
     font-weight: bold;
     color: rgb(17, 17, 17);
     font-size: 14px;
     
 }
 
-input {
+.user-details input {
     border-radius: 5px;
     border: none;
     height: 30px;
