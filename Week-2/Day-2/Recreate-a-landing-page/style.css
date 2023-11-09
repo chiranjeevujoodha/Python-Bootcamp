@@ -23,3 +23,13 @@
     font-size: 2rem;
     text-align: center;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    text-align: center;
+}
+
+.grid-item {
+    border: 1px solid black;
+}
