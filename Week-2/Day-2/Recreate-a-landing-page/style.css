@@ -41,7 +41,7 @@
     color: #5C6AC4;
 }
 
-.subtitle {
+.caption {
     margin-top: 10px;
     font-size: 12px;
     font-weight: bold;
@@ -122,4 +122,9 @@
 .blog-author-3 {
     background-color: #47C1BF;
 
+}
+
+.subtitle {
+    font-size: 12px;
+    margin-top: 10px;
 }
