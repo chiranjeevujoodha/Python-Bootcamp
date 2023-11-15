@@ -55,7 +55,7 @@
     width: 70%;
     margin: 150px auto;
     display: grid;
-    grid-template-columns: repeat(3, 300px);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 100px;
     justify-content: center;
     
@@ -97,14 +97,16 @@
     /* border: 1px solid purple; */
     background-color: white;
     height: 70%;
-    border-radius: 5px;
+    border-radius: 5px 5px 0 0;
     padding: 40px 20px 0 20px;
+    color: #83909B;
 }
 
 .blog-author {
     text-align: center;
     height: 30%;
     color: white;
+    border-radius: 0 0 5px 5px;
     /* font-weight: bold; */
 }
 
