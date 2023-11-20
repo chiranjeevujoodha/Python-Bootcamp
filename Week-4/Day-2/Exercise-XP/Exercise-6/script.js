@@ -34,7 +34,7 @@ function planeRideCost(){
         return destination_price
 }
 
-// console.log(planeRideCost())
+console.log(planeRideCost())
 
 function rentalCost(){
     do {
@@ -44,4 +44,4 @@ function rentalCost(){
 
 
 
-rentalCost()
+// rentalCost()
